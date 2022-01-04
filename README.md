@@ -5,8 +5,8 @@ A interactive novel played purely through a terminal by navigating (mainly) with
 
 To start off on this adventure you will need:
 
-A terminal (I will be using the GNU/Linux one for the explanations) 
-A basic ability to use the `cd` and `less` commands (or equivelent)  
+- A terminal (I will be using the GNU/Linux one for the explanations) 
+- A basic ability to use the `cd` and `less` commands (or equivelent)  
 
 If you already have all of these, then you can begin! Just `cd` into the start directory, and open up "instructor" with you text editor to get started, they'll explain everything. Good Luck!
 
@@ -23,9 +23,9 @@ Windows:\
 Get a *NIX OS... Or the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about)
 
 ## How to use the `cd` command
-cd stands for Change Directory (another name for folder). To use it just type `cd` followed by the directory you want to go to. By default, the terminal will start you in the home directory. So:O
+cd stands for Change Directory (another name for folder). To use it just type `cd` followed by the directory you want to go to. By default, the terminal will start you in the home directory. So:\
 `cd Desktop/`
-will take you to the Desktop folder (Linux file names and bash commands are case sensitive btw) and your terminal will go from:\
+will take you to the Desktop folder (On most operating systems, file names and commands are case sensitive) and your terminal will go from:\
 `username@computername:~$`\
 to:\
 `username@computername:~/Desktop$`\
@@ -34,6 +34,11 @@ You can also move through multiple directories in one command. For example:\
 if both these folders exist you should now be at:\
 `username@computername:~/Downloads/Terminal-Adventure-main$\`\
 You can now use this to navigate to the folder this file is in.
+
+## How to use the `less` command
+There was once a program used to display the contents of files called `more` although it only had the ability to scroll forwards. Less allows users to scroll backwards as well, the name came from the joke of doing "backwards more.". To use it simply type `less` followed by the name of the file. For example:\
+`less instructor`\
+will will open up the file `instructor` (again, on most OS's, file names and commands are case sensitive). You can then scroll with the arrow keys and quit by pressing q.
 
 ## Using a command-line text editor
 
